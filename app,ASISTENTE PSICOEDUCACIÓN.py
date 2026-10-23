@@ -300,13 +300,7 @@ st.info(
     "No realiza diagnósticos ni reemplaza la atención psicológica."
 )
 
-emocion = st.selectbox(
-    "¿Cómo te sentís hoy?",
-    ["Elegí una emoción", "Estoy Alegre", "Estoy Triste", "Siento Ansiedad","Siento Frustración", "Siento Enojo", " Tengo Calma"])
 
-if emocion != "Elegí una emoción":
-
- st.write ( "Seleccionaste: **{emociones{emocion}**")
 
 
 if emocion == "Ansiedad":
