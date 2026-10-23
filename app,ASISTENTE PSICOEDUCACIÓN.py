@@ -303,24 +303,6 @@ st.info(
 
 
 
-if emocion == "Ansiedad":
-        st.info("Podés hacer una pausa y respirar lentamente.")
-    
-elif emocion == "Tristeza":
-        st.info("Podés darte un momento para reconocer lo que sentís.")
-elif emocion == "Frustración": 
-         st.info("Descansá un momento y volvé a "
-         "intentarlo " "de a poco. ¡Vos podés!"
-       ) 
-
-         
-elif emocion == "Enojo":
- st.info("Podés detenerte un momento antes de responder.")
-
-elif emocion == "Alegría":
-        st.info("Podés disfrutar este momento y reconocer qué te hace bien.")
-elif emocion == "Calma":
- st.info("Podés identificar qué te ayuda a sentirte en calma.")
 
 st.subheader("Mi registro emocional")
 
